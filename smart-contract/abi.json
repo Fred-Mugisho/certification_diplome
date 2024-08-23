@@ -1,0 +1,141 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "code_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "nom_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "date_delivrance",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "hash_diplome",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "resultat",
+				"type": "string"
+			}
+		],
+		"name": "emettrer_diplome",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "diplomes",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "code_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "nom_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "date_delivrance",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "hash_diplome",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "resultat",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "livrer",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "university",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "code_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "date_delivrance",
+				"type": "string"
+			}
+		],
+		"name": "verifier_diplome",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "_code_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_nom_etudiant",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_hash_diplome",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_resultat",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "_valide",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

@@ -1,0 +1,32 @@
+2024-08-22 19:29:12,370 - ERROR - Une erreur s'est produite: 
+Could not identify the intended function with name `emettrer_diplome`, positional arguments with type(s) `(str,str,str,str,str)` and keyword arguments with type(s) `{}`.
+Found 1 function(s) with the name `emettrer_diplome`: ['emettrer_diplome(string,string,string,string)']
+Function invocation failed due to improper number of arguments.
+2024-08-22 19:37:18,164 - ERROR - Une erreur s'est produite: 
+Could not identify the intended function with name `emettrer_diplome`, positional arguments with type(s) `(str,str,str,str,str)` and keyword arguments with type(s) `{}`.
+Found 1 function(s) with the name `emettrer_diplome`: ['emettrer_diplome(string,string,string,string)']
+Function invocation failed due to improper number of arguments.
+2024-08-22 20:05:45,495 - INFO - Transaction réussie avec le hash: 113ddea3ea1789e18db50805dae29cca7d5b8b32f3f66cf81752db289aafe49c
+2024-08-22 20:06:58,990 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:10:59,269 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:35:37,930 - INFO - Transaction réussie avec le hash: a00b508b03a1081252284f1375215ba3a74002595250e42f5d49981f5e22acc4
+2024-08-22 20:37:49,046 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:39:08,148 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:41:04,143 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:55:37,294 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:58:29,169 - ERROR - Une erreur s'est produite: Incorrect argument count. Expected '2', got '0'.
+2024-08-22 20:59:06,500 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 20:59:47,759 - INFO - Verification du diplome : b'\xf9u\x96\x87D\xf0t\x9b\xf4MN\xdb\xf4~\x80\xbc\xcdM\xfa\xcf\xc9\xa6\xf9I\x88%\xcb\x0f\x0c\xc4\xedx'
+2024-08-22 21:00:55,543 - INFO - Verification du diplome : b'\x92\xbc\xbf\xcc\xf4\xfd\x8a\xabu7\xfb[\xdf~Q\xee\xd1\xdc\x08\xc8s_\x93\x04C/(n\xd77\x81\x1d'
+2024-08-22 21:24:38,174 - INFO - Transaction réussie avec le hash: bc677ee36fe49c1de6ed155e7be27184d477df5e4874723f9a7051e5cd313fb8
+2024-08-22 21:25:08,474 - INFO - Verification du diplome : b'Fb"\xdd\xeeO\n\x11 \xdb\x84\xb3lh\x02FmCm\x86!\x1d\x1f\x17{\x93\x81\x07\x19U@M'
+2024-08-22 21:26:53,210 - INFO - Verification du diplome : ce535ec065620ac5548f4f5e62ae9b7a8372ab6bc64de6a3fb35237d8da3da2c
+2024-08-22 21:27:54,874 - INFO - Verification du diplome : 7f47c0a89d098f2f0cb1445faf726ec1eb7db95cc823aeaf6996c72e0b372257
+2024-08-22 21:33:23,859 - ERROR - Une erreur s'est produite: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2024-08-22 21:45:38,054 - INFO - Transaction réussie avec le hash: a364b0f046399c4125679ccdaf96189de93af1ec33ecd34264afb82894d0b083
+2024-08-22 21:46:07,439 - INFO - Diplome valide pour 15887 délivré le 2023
+2024-08-22 21:47:50,077 - INFO - Diplome valide pour  délivré le 2022
+2024-08-22 21:49:13,776 - WARNING - Diplome non valide pour  délivré le 2022
+2024-08-22 21:54:34,722 - ERROR - Une erreur s'est produite: ('execution reverted: VM Exception while processing transaction: revert Le diplome a deja ete emis', {'hash': None, 'programCounter': 1421, 'result': '0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a4c65206469706c6f6d6520612064656a612065746520656d6973000000000000', 'reason': 'Le diplome a deja ete emis', 'message': 'revert'})
+2024-08-23 00:01:19,466 - INFO - Diplome valide pour 15887 délivré le 2023
+2024-08-23 00:02:45,642 - INFO - Diplome valide pour 15887 délivré le 2023
